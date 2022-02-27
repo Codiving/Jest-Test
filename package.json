@@ -1,0 +1,15 @@
+{
+  "name": "Jest-Test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Codiving/Jest-Test.git",
+  "author": "Codiving <codivingmoon@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
