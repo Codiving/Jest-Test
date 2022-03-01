@@ -21,9 +21,8 @@ class SuperMarket {
     if (paidAmount >= totalPrice) {
       this.balance += paidAmount - totalPrice;
       return paidAmount - totalPrice;
-    } else {
-      return -1;
     }
+    throw new Error("금액이 부족합니다.");
   }
 }
 
