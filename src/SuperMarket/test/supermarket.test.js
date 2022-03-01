@@ -45,7 +45,7 @@ describe("SuperMarket", () => {
       expect(superMarket.getItemPrice("balance")).toBe(5500);
     });
 
-    it("1400원 지불 / gum 3개 구매 / 거스름돈 : -1원 / 잔고 : 5000원", () => {
+    it("1400원 지불 / gum 3개 구매 / 에러 처리 / 잔고 : 5000원", () => {
       expect(() => superMarket.buy("gum", 3, 1400)).toThrow(
         "금액이 부족합니다."
       );
